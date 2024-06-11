@@ -72,6 +72,12 @@ h2 {
 p {
     font-size: large;
     font-weight: 100;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-family: var(--fonte-bold);
+    font-size: 1em;
 }
 
 #video {
