@@ -72,12 +72,12 @@ h2 {
 p {
     font-size: large;
     font-weight: 100;
-    padding-top: 10vh;
+    padding-top: 9vh;
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
     font-family: var(--fonte-bold);
-    font-size: 1em;
+   
 }
 
 #video {
@@ -109,9 +109,33 @@ section.imagem > p {
 }
 
 section#img1 {
-    background-image: url('../bee/wallpaperflare.com_wallpaper.jpg');
-    background-position: right center;
+    height: 98vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('wallpaperflare.com_wallpaper.jpg');
 }
+
+/* Media query para telas menores */
+@media (max-width: 768px) {
+    .background-container {
+        background-image: url('imagem-media.jpg');
+    }
+}
+
+/* Media query para telas muito pequenas */
+@media (max-width: 480px) {
+    .background-container {
+        background-image: url('wallpaperflare.commenor.png');
+    }
+}
+
 
 section#img2 {
     background-image: url('../bee/Guts\ Berserk\ Rain\ GIF\ -\ Guts\ Berserk\ Guts\ Berserk\ -\ Discover\ &\ Share\ GIFs.gif');
