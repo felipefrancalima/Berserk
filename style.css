@@ -128,9 +128,7 @@ section#img1 {
         background-image: url('Berserk-fundo-h1.png');
     }
 }
-
-/* Media query para telas muito pequenas */
-@media (max-width: 480px) {
+@media (max-width: 100px) {
     section#img1 {
         background-image: url('Berserk-fundo-h1.png');
     }
