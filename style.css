@@ -133,19 +133,19 @@ section#img1 {
 
 @media (max-width: 620px) {
     section#img1 {
-        background-image: url('Berserk-fundo-h1.png');
+        background-image: url('wallpaperflarecelula.jpg');
     }
 }
 
 
 section#img2 {
     background-image: url('../bee/Guts\ Berserk\ Rain\ GIF\ -\ Guts\ Berserk\ Guts\ Berserk\ -\ Discover\ &\ Share\ GIFs.gif');
-    background-position: right center;
+    background-position: center;
 }
 
-@media (max-width: 600px) {
+@media (max-width: px) {
     section#img2 {
-        background-image: url('Berserk-fundo-h1.png');
+        background-image: url('');
     }
 }
 
