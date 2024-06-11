@@ -101,13 +101,6 @@ section.imagem {
     background-attachment: fixed;
 }
 
-section.imagem > p {
-    display: inline-block;
-    padding: ;
-    background-color: rgba(0, 0, 0, 0.08);
-    text-shadow: 1px 1px 0 black;
-}
-
 section#img1 {
     height: 98vh;
     display: flex;
@@ -132,6 +125,12 @@ section#img1 {
 section#img2 {
     background-image: url('../bee/Guts\ Berserk\ Rain\ GIF\ -\ Guts\ Berserk\ Guts\ Berserk\ -\ Discover\ &\ Share\ GIFs.gif');
     background-position: right center;
+}
+
+@media (max-width: 600px) {
+    section#img2 {
+        background-image: url('Berserk-fundo-h1.png');
+    }
 }
 
 section#img3 {
