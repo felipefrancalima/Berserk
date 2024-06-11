@@ -35,7 +35,7 @@ html, body {
     font-weight: 100;
     background-color: black;
     color: white;
-    padding: %;
+    padding: 1%;
 
     
 
@@ -102,11 +102,14 @@ p {
 
 #video iframe {
     position: absolute;
-    top: 0;
-    left: 0;
+    top: auto;
+    left: auto;
     width: 90%;
     height: 90%;
     border: 0;
+    padding: 0px;
+    position:  0px;
+    margin: 22px;
 }
 
 section.imagem {
