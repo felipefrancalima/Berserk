@@ -83,21 +83,20 @@ p {
 
 #video {
    
-    border: 2px solid rgba(255, 0, 0, 0.56);
+    border: 1px solid rgba(255, 0, 0, 0.56);
     border-radius: 25px;
-    padding: 4vh;
+    padding: 1%;
     background-image: url(Berserk-fundo-h1.png);
     background-color: rgba(0, 0, 0, 0.233);
     box-shadow: inset 5px 5px 10px 0px rgba(0, 0, 0, 0.63);
     background-size: cover;
     background-attachment: fixed;
-    background-position: top;
     position: relative;
-    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    padding-bottom: 56%; /* 16:9 aspect ratio */
     height: 0;
     overflow: hidden;
-    width: 98%;
-    max-width: 98%;
+    width: %;
+    max-width: %;
 }
 
 
@@ -115,7 +114,6 @@ p {
 
 section.imagem {
     background-color: rgba(0, 0, 0, 0.23);
-    color: white;
     box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.63);
     background-size: cover;
     background-attachment: fixed;
@@ -151,8 +149,10 @@ section#img2 {
 }
 
 section#img3 {
-    background-image: url('../<iframe width="560" height="315" src="https://www.youtube.com/embed/59lYXEWNKE4?si=sP5U0yibNNTVV5Qb&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>');
-    background-position: center center;
+    background-image: url('../<iframe width="" height="" src="https://www.youtube.com/embed/59lYXEWNKE4?si=sP5U0yibNNTVV5Qb&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>');
+    background-position: ;
+  
+ 
 }
 
 strong {
