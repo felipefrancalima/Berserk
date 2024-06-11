@@ -1,0 +1,145 @@
+@charset "UTF-8";
+
+
+@font-face {
+    font-family: 'berserk';
+    src: url('../berserk/berserker.ttf') format('opentype');
+}
+
+@font-face {
+    font-family: 'berr';
+    src: url('../berserk/Berani.ttf') format('opentype');
+}
+
+@font-face {
+    font-family: 'blod';
+    src: url('../berserk/bloodcrow.ttf') format('opentype');
+}
+
+
+:root {
+    --fonte-bold: 'blod';
+    --fonte-berr: 'berr';
+    --fonte-berserk: 'berserk';
+}
+
+
+body {
+    font-family: var(--fonte-bold);
+    font-size: large;
+    font-weight: 100;
+    background-color: black;
+    color: white;
+    padding: 10%;
+}
+
+/* Estilo para o iframe */
+#m {
+    opacity: 1; /* Corrigido valor de opacidade */
+}
+h1 {
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.3); 
+    border: 2px solid rgba(255, 0, 0, 0.56); 
+    border-radius: 25px;
+    padding: 20px;
+    font-variant: small-caps;
+    background-image: url(Berserk-fundo-h1.png);
+    background-color: rgba(0, 0, 0, 0.233);
+    color: white;
+    box-shadow: inset 5px 5px 10px 0px rgba(0, 0, 0, 0.63);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top;
+    
+}
+
+
+h2 {
+    font-weight: 100;
+}
+
+
+p {
+    font-size: large;
+    font-weight: 100;
+}
+
+#video {
+    right: auto;
+    width: auto;
+    border: 2px solid rgba(255, 0, 0, 0.56);
+    border-radius: 25px;
+    padding: 4vh;
+    background-image: url(Berserk-fundo-h1.png);
+    background-color: rgba(0, 0, 0, 0.233);
+    box-shadow: inset 5px 5px 10px 0px rgba(0, 0, 0, 0.63);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top;
+}
+
+section.imagem {
+    background-color: rgba(0, 0, 0, 0.23);
+    color: white;
+    box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.63);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section.imagem > p {
+    display: inline-block;
+    padding: 150px;
+    background-color: rgba(0, 0, 0, 0.08);
+    text-shadow: 1px 1px 0 black;
+}
+
+
+section#img1 {
+    background-image: url('../berserk/wallpaperflare.com_wallpaper.jpg');
+    background-position: right center;
+}
+
+section#img2 {
+    background-image: url('../berserk/Guts\ Berserk\ Rain\ GIF\ -\ Guts\ Berserk\ Guts\ Berserk\ -\ Discover\ &\ Share\ GIFs.gif');
+    background-position: right center;
+}
+
+section#img3 {
+    background-image: url('../<iframe width="560" height="315" src="https://www.youtube.com/embed/59lYXEWNKE4?si=sP5U0yibNNTVV5Qb&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>');
+    background-position: right center;
+}
+
+
+strong {
+    font-family: var(--fonte-berr);
+    font-size: large; 
+    font-weight: 500; 
+    color: red;
+    font-style: inherit;
+}
+
+
+/* Estilo para a imagem que segue o cursor */
+#imagem-seguindo {
+    position: absolute;
+    width: 100px; /* Ajuste o tamanho conforme necessário */
+    height: 100px; /* Ajuste o tamanho conforme necessário */
+    pointer-events: none; /* Faz com que a imagem não interfira nos eventos do mouse */
+}
+
+footer {
+    background-color: rgb(165, 5, 5);
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+
+
+
+
+
+
