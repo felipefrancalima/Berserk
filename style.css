@@ -2,17 +2,17 @@
 
 @font-face {
     font-family: 'berserk';
-    src: url('../berserk/berserker.ttf') format('opentype');
+    src: url('../bee/berserker.ttf') format('opentype');
 }
 
 @font-face {
     font-family: 'berr';
-    src: url('../berserk/Berani.ttf') format('opentype');
+    src: url('../bee/Berani.ttf') format('opentype');
 }
 
 @font-face {
     font-family: 'blod';
-    src: url('../berserk/bloodcrow.ttf') format('opentype');
+    src: url('../bee/bloodcrow.ttf') format('opentype');
 }
 
 * {
@@ -103,7 +103,7 @@ section.imagem {
 
 section.imagem > p {
     display: inline-block;
-    padding: 150px;
+    padding: ;
     background-color: rgba(0, 0, 0, 0.08);
     text-shadow: 1px 1px 0 black;
 }
@@ -124,15 +124,15 @@ section#img1 {
 
 /* Media query para telas menores */
 @media (max-width: 768px) {
-    .background-container {
-        background-image: url('imagem-media.jpg');
+    section#img1 {
+        background-image: url('Berserk-fundo-h1.png');
     }
 }
 
 /* Media query para telas muito pequenas */
 @media (max-width: 480px) {
-    .background-container {
-        background-image: url('wallpaperflare.commenor.png');
+    section#img1 {
+        background-image: url('Berserk-fundo-h1.png');
     }
 }
 
