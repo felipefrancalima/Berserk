@@ -31,7 +31,31 @@
     <h2>Enredo</h2>
     <p>A história é dividida em vários arcos principais:
     <ul>
+        <style>
+            #video {
+                position: relative;
+                padding-bottom: 56.25%; /* 16:9 aspect ratio */
+                height: 0;
+                overflow: hidden;
+                width: 98%;
+                max-width: 98%;
+                background: #000;
+            }
     
+            #video iframe {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 98%;
+                height: 98%;
+                border: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="video">
+            <iframe src="https://www.youtube.com/embed/Cma6bekRO68?si=L4t0byeA6d3UOieQ&amp;controls=0&amp;start=89" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
 
         <section class="imagem" id="img3">
             <li>Golden Age Arc: Mostra o início da amizade entre Guts e Griffith, a ascensão do Bando do Falcão e a subsequente queda devido à ambição de Griffith.</li>
