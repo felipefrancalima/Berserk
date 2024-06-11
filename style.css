@@ -68,6 +68,7 @@ h1 {
 
 h2 {
     font-weight: 100;
+    text-align: center;
 }
 
 p {
@@ -170,10 +171,23 @@ strong {
     pointer-events: none;
 }
 
+aside {
+    background-color: var(--cor1);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.47);
+ }
+
+aside > ul {
+    list-style-type: '\1F3F4\200D\2620\FE0F';       
+    list-style-position: inside;
+    columns: 2;
+}
+
 footer {
     background-color: rgb(165, 5, 5);
     color: white;
-    text-align: center;
     padding: 0px;
+    font-size: 16px;
 }
 
