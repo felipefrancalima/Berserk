@@ -36,6 +36,7 @@ html, body {
     background-color: black;
     color: white;
     padding: %;
+    margin: 1px;
 
     
 
@@ -121,20 +122,17 @@ section.imagem {
 }
 
 section#img1 {
-    height: 98vh;
+    height: vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    color: white;
-    text-align: center;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-image: url('wallpaperflare.com_wallpaper.jpg');
 }
 
-@media (max-width: 620px) {
+@media (max-width: 320px) {
     section#img1 {
         background-image: url('wallpaperflarecelula.jpg');
     }
@@ -176,6 +174,6 @@ footer {
     background-color: rgb(165, 5, 5);
     color: white;
     text-align: center;
-    padding: 10px;
+    padding: 0px;
 }
 
