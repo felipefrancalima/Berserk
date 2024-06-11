@@ -35,7 +35,7 @@ html, body {
     font-weight: 100;
     background-color: black;
     color: white;
-    padding: 1%;
+    padding: %;
 
     
 
@@ -75,7 +75,7 @@ p {
     padding-top: 9vh;
     padding-bottom: 10vh;
     line-height: 1em;
-    padding-left: 30px;
+    padding-left: 1px;
     font-family: var(--fonte-bold);
    
 }
