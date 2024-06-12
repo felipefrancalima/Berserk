@@ -30,7 +30,7 @@
 
 html, body {
     min-height: vh;
-    font-family: var(--fonte-bold);
+    font-family: var(--fonte-berr);
     font-size: large;
     font-weight: 100;
     background-color: black;
@@ -74,7 +74,7 @@ h2 {
 
 p {
     font-size: large;
-    font-weight: 100;
+    font-weight: 100px;
     padding-top: 9vh;
     padding-bottom: 10vh;
     line-height: 1em;
@@ -183,6 +183,8 @@ aside > ul {
     list-style-type: '\1F3F4\200D\2620\FE0F';       
     list-style-position: inside;
     columns: 2;
+    font-size: x-large;
+    font-family: var(--fonte-berserk);
 }
 
 footer {
